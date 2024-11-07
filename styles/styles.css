@@ -1,0 +1,202 @@
+/* adding general stuff */
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+.index {
+  background-image: url(../images/background-index.jpg);
+}
+.falls, .ferry, .forest, .mountain, .lake, .park{
+  background-image: url(../images/outdoors-background.jpg);
+}
+/* adding wrapper */
+.falls #wrapper, .ferry #wrapper, .forest #wrapper, .mountain #wrapper, .lake #wrapper, .park #wrapper{
+  width:940px;
+  margin:10px auto;
+  padding:10px;
+  /* background-color: rgba(158, 152, 147, 0.562); */
+  /* overflow:hidden; */
+  height:880px;
+  /* background-color: rgba(255, 69, 0, 0.85); */
+  /* background-image: url(../images/raindrop.png); */
+  background-color: rgba(40, 245, 245, 0.6);
+  border-radius: 5px;
+}
+/* .falls img{
+  height:600px;
+} */
+.index #wrapper{
+  background-color: rgba(255, 69, 0, 0.85);
+  background-image: url(../images/falling-leaves.png);
+  margin:0 auto 10px auto;
+  width:940px;
+  /* margin:5px auto; */
+  padding:10px;
+  /* background-color: rgba(158, 152, 147, 0.562); */
+  /* overflow:hidden; */
+  height:650px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.index header a{
+background-color: rgba(255, 69, 0, 0.85);
+width:940px;
+height:100px;
+margin-bottom: 0px;
+margin-top:10px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+line-height: 105px;
+}
+.mountain nav li:nth-child(1) a,
+.forest nav li:nth-child(2) a,
+.falls nav li:nth-child(3) a,
+.ferry nav li:nth-child(4) a,
+.lake nav li:nth-child(5) a,
+.park nav li:nth-child(6) a{
+  background-color:rgba(120, 206, 255, 0.966);
+  border-radius: 10px;
+}
+.content{
+  width:700px;
+  display:block;
+  margin:0 auto 30px auto;
+  text-align: justify;
+  border-radius: 20px;
+  background-color: rgba(40, 245, 245, 0.623);
+  padding:10px;
+  border:2px solid rgba(27, 179, 179, 0.671);
+}
+/* adding nav and co*/
+.index nav{
+  background:rgba(16, 185, 30, 0.911);
+  height:70px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.index nav li{
+  list-style-type: none;
+  float:left;
+  width:16.66%;
+  text-align:center;
+  line-height:70px;
+}
+.index nav a{
+  text-decoration: none;
+  color:rgb(9, 43, 4);
+  display:block;
+  font-size:16px;
+  padding:0 2px 0 2px;
+}
+.index nav a:hover{
+  background-color:rgba(49, 243, 24, 0.575);
+  color:rgb(8, 32, 4);
+  border-radius:10px;
+}
+.index a {
+  /* color: rgb(0, 44, 0); */
+  color:black;
+  /* adding align */
+  text-align: center;
+  margin: 0 auto 0 auto;
+  font-size: 60px;
+  text-decoration: none;
+  display: block;
+  /* background:rgb(3, 184, 18); */
+}
+img{
+ width:600px;
+  height:400px;
+  border:5px solid rgba(3, 3, 182, 0.795);
+ color:white;
+  border-radius:20px;
+  /* displaay and margin */
+  display:block;
+  margin:0 auto;
+}
+.index img{
+  border: 5px solid green;
+}
+/* adding figure */
+figure{
+  margin-bottom:20px;
+}
+/* adding to figcaption */
+figcaption{
+ width: 300px;
+  text-align: center;
+  /* margin-left: 50px; */
+  margin:0 auto 10px auto;
+  margin-top:8px;
+  /* padding-left:5px; */
+  font-size:1.3em;
+  /* color:rgb(3, 12, 148); */
+}
+.index figcaption{
+  color:black;
+}
+.falls a, .ferry a, .forest a, .mountain a, .lake a, .park a {
+  color: darkblue;
+  /* adding align */
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 60px;
+  display:block;
+  text-decoration: none;
+  padding-top: 10px;
+}
+/* .index nav{
+  background:rgb(3, 184, 18);
+  height:70px;
+  margin-bottom: 30px;
+}
+.index nav li{
+  list-style-type: none;
+  float:left;
+  width:16.66%;
+  text-align:center;
+  line-height:70px;
+}
+.index nav a{
+  text-decoration: none;
+  color:rgb(9, 43, 4);
+  display:block;
+  font-size:16px;
+  padding:0 2px 0 2px;
+} */
+.falls nav, .ferry nav, .forest nav, .mountain nav, .lake nav, .park nav{
+  background:rgb(7, 186, 192);
+  height:70px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.falls nav li, .ferry nav li, .forest nav li, .mountain nav li, .lake nav li, .park nav li{
+  list-style-type: none;
+  float:left;
+  width:16.66%;
+  text-align:center;
+  line-height:70px;
+}
+.falls nav a, .ferry nav a, .forest nav a, .mountain nav a, .lake nav a, .park nav a{
+  text-decoration: none;
+  color:rgb(3, 12, 148);
+  display:block;
+  font-size:16px;
+  padding:0 2px 0 2px;
+}
+.falls nav a:hover, .ferry nav a:hover, .forest nav a:hover, .mountain nav a:hover, .lake nav a:hover, .park nav a:hover{
+  background-color:rgba(120, 206, 255, 0.966);
+  border-radius: 10px;
+}
+#alttext{
+  font-size: 3em;
+  text-align: center;
+  width:50%;
+  margin: 0 auto;
+  border-radius: 2px;
+  background:rgba(40, 245, 245, 0.623);
+}
+.index #alttext{
+  background:rgba(16, 185, 30, 0.911);
+}
