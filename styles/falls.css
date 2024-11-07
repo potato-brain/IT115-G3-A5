@@ -11,6 +11,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
+=======
+    text-shadow: 2px 2px #000000;
+>>>>>>> 9ab076b2d4b36011e1552f16a430bfd00cd9d8a2
   }
 h1 {
   font-size: 3em;
@@ -22,6 +26,13 @@ h1 {
     text-align: center;
     font-family: Lucida, monospace;
     margin: 10px 0;
+<<<<<<< HEAD
+=======
+    border: 6px solid #0000000c;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.747);
+    text-shadow: 2px 2px #000000;
+>>>>>>> 9ab076b2d4b36011e1552f16a430bfd00cd9d8a2
   }
 
   h2, figcaption {
@@ -31,6 +42,13 @@ h1 {
     text-align: center;
     font-family: Lucida, monospace;
     margin: 10px 0;
+<<<<<<< HEAD
+=======
+    border: 6px solid #0000000c;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.747);
+    text-shadow: 2px 2px #000000;
+>>>>>>> 9ab076b2d4b36011e1552f16a430bfd00cd9d8a2
   }
   #alttext {
     text-align: center;
@@ -59,6 +77,13 @@ h1 {
     border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
+<<<<<<< HEAD
+=======
+    border: 6px solid #0000000c;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.747);
+    text-shadow: 2px 2px #000000;
+>>>>>>> 9ab076b2d4b36011e1552f16a430bfd00cd9d8a2
   }
 
   button:hover {
