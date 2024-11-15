@@ -1,0 +1,34 @@
+name: Hello World
+
+# Events
+
+on:
+  push:
+    branches:
+      - alexis
+
+  pull_request:
+    branches:
+      - alexis
+
+  workflow_dispatch:
+
+#workflow/jobs
+
+jobs:
+  hello1:
+    runs-on: unbuntu-latest
+    steps:
+      - uses: actions/checkout@4
+      - name: Hello1
+        run: echo "Hello World 1"
+        shell: bash
+
+  hello2:
+    runs-on: unbuntu-latest
+    steps:
+      - uses: actions/checkout@4
+      - name: Hello2
+        run: echo "Hello World 2"
+        shell: bash
+      
