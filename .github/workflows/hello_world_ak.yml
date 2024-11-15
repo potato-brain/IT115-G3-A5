@@ -19,7 +19,7 @@ jobs:
   hello1:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@4
+      - uses: actions/checkout@v4
       - name: Hello1
         run: echo "Hello World 1"
         shell: bash
@@ -27,7 +27,7 @@ jobs:
   hello2:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@4
+      - uses: actions/checkout@v4
       - name: Hello2
         run: echo "Hello World 2"
         shell: bash
