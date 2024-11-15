@@ -1,26 +1,33 @@
 name: Hello World
 
-  # Events
+# Events
 
-  on:
-    push:
-      branches:
-        - main
+on:
+  push:
+    branches:
+      - development
 
-    pull_request:
-        branches:
-        - main
+  pull_request:
+    branches:
+      - development
 
-    workflow_dispatch:
+  workflow_dispatch:
 
+#workflow/jobs
 
-    # Workflow / Jobs
+jobs:
+  hello1:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Hello1
+        run: echo "Hello World 1"
+        shell: bash
 
-    jobs:
-      hello:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v4
-          - name: Hello
-          - run: echo "Hello World"
-          shell: bash
+  hello2:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Hello2
+        run: echo "Hello World 2"
+        shell: bash
