@@ -1,4 +1,4 @@
-name: Hello World
+name: Hello_World_RD
 
 # Events
 
@@ -11,16 +11,23 @@ on:
     branches:
       - development
 
-workflow_dispatch:
+  workflow_dispatch:
 
-
-# Workflow / Jobs
+#workflow/jobs
 
 jobs:
-  hello:
+  hello1:
     runs-on: windows-latest
     steps:
-      - uses: action/checkout@v4
-      - name: Hello
-        run: echo "Hello World"
+      - uses: actions/checkout@v4
+      - name: Hello1
+        run: echo "Hello World 1"
+        shell: bash
+
+  hello2:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Hello2
+        run: echo "Hello World 2"
         shell: bash
