@@ -11,7 +11,7 @@ on:
         branches:
           - main
 
-workfloew_dispatch:
+workflow_dispatch:
 
 
 # Workflow / Jobs
