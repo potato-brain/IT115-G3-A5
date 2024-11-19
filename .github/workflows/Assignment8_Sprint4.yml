@@ -8,7 +8,7 @@ on:
 
 jobs:
   kanban-update:
-    runs-on: ubuntu-latest
+    runs-on: Windows-latest
     steps:
       # Add "To Do" label when an issue is opened
       - name: Add "To Do" label to new issues
