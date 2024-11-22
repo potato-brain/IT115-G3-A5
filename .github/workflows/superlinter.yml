@@ -1,0 +1,22 @@
+name: Super-Linter
+
+on:
+  push:
+    branches:
+      - ryan
+  pull_request:
+    branches:
+      - ryan
+
+jobs:
+  lint-code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        
+      - name: Run Super-Linter
+        uses: github/super-linter@v5
+        env:
+          DEFAULT_BRANCH: ryan
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
