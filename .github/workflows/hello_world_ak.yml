@@ -17,7 +17,7 @@ on:
 
 jobs:
   hello1:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Hello1
@@ -25,7 +25,7 @@ jobs:
         shell: bash
 
   hello2:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Hello2
